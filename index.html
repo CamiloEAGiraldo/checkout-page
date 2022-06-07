@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="/style/responsive.css">
+  <title>Checkout page</title>
+</head>
+<body>
+  <!-- ------ CHECKOUT  ------ -->
+  <h1>Checkout</h1>
+  <div id="content">
+  <section id="checkout">
+    <article id="checkout-product1" class="checkout-products">
+      <img src="/assets/img/photo1.png" alt="">
+    <div class="product">
+      <p class="product-name">Vintage Backbag</p>
+      <p class="product-price">$54.99</p>
+      <p class="product-price_discount">$94.99</p>
+      <label for="product-amount">
+        <input type="number" placeholder="1" min="1" max="10" class="product-amount">
+      </label>
+    </div>
+    </article>
+    <article id="checkout-product2" class="checkout-products">
+      <img src="/assets/img/photo2.png" alt="">
+    <div class="product">
+      <p class="product-name">Levi Shoes</p>
+      <p class="product-price">$74.99</p>
+      <p class="product-price_discount">$124.99</p>
+      <label for="product-amount">
+      <input type="number" placeholder="1" min="1" max="10" class="product-amount">
+    </div>
+    </article>
+    <aside id="shipping">
+      <div class="hr" id="hr1"></div>
+      <p class="shipping-txt">Shipping</p>
+      <p id="shipping-price" class="shipping-num">$19</p>
+      <div class="hr" id="hr2"></div>
+      <p class="shipping-txt">Total</p>
+      <p id="shipping-total" class="shipping-num">$149</p>
+    </aside>
+  </section>
+  <!-- ---- END CHECKOUT  ----- -->
+  <!-- ------ CONTACT  ------ -->
+  <section id="contact">
+    <h2>Contact information</h2>
+    <label class="input" for="contact-email">
+      <p>E-mail</p>
+      <img src="/assets/icons/icon (1).png" alt="">
+      <input type="email" name="email" id="contact-email" placeholder="Enter your email...">
+    </label>
+    <label class="input" for="contact-phone">
+      <p>Phone</p>
+      <img src="/assets/icons/icon (2).png" alt="">
+      <input type="tel" name="phone" id="contact-phone" placeholder="Enter your phone...">
+    </label>
+  </section>
+  <!-- ---- END CONTACT  ----- -->
+<!-- ------ SHIPPING ADDRRESS ------ -->
+<section id="shipping_address">
+  <h2>Shipping address</h2>
+  <label class="input" for="shipping_address-name">
+      <p>Full name</p>
+      <img src="/assets/icons/icon (3).png" alt="">
+      <input type="text" name="full name" id="shipping_address-name" value="Rodney Cotton">
+    </label>
+    <label class="input" for="shipping_address-address">
+      <p>Address</p>
+      <img src="/assets/icons/icon (4).png" alt="">
+      <input type="text" name="address" id="shipping_address-address" placeholder="Your address...">
+    </label>
+    <label class="input" for="shipping_address-city">
+      <p>City</p>
+      <img src="/assets/icons/icon (5).png" alt="">
+      <input type="text" name="city" id="shipping_address-city" placeholder="Your city...">
+    </label>
+
+    <div class="midcard">
+    <label class="input" for="shipping_address-country">
+      <p>Country</p>
+      <img src="/assets/icons/icon (6).png" alt="">
+      <input type="list" list="shipping_address-country" placeholder="Your Country...">
+        <datalist id="shipping_address-country">
+         <option value="Colombia">
+         <option value="Ecuador">
+         <option value="EE.UU.">
+        </datalist>
+    </label>
+    <label class="input" for="shipping_address-postal">
+      <p>Postal</p>
+      <img src="/assets/icons/icon (7).png" alt="">
+      <input type="text" name="postal" id="shipping_address-postal" placeholder="Your postal code...">
+    </label>
+    </div>
+
+    <label for="shipping_address-save_info">
+      <input type="checkbox" id="shipping_address-save_info" required>
+    </label>
+    <p id="shipping_address-msg">Save this information for next time</p>
+    <label id="continue"for="shipping_address-continue" method="post">
+      <button type="submit" id="shipping_address-continue">Continue</button>
+    </label>
+  </section>
+</div>
+  <!-- ---- END SHIPPING ADDRRESS ----- -->
+  <footer>Created by CamiloEAGiraldo</footer>
+</body>
+</html>

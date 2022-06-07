@@ -1,0 +1,157 @@
+/* ------ GENERAL TAGS ------ */
+h1{
+    color: #4E5150;
+}
+/* ---- END GENERAL TAGS ---- */
+/* ------ CHECKOUT  ------ */
+#checkout{
+    width: 100%;
+    margin: 5% auto;
+    background-color: #F2F2F2;
+    border-radius: 5%;
+}
+#checkout img{
+    position: absolute;
+    border-radius: 15%;
+    width: 40%;
+    left: 10%;
+}
+.checkout-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    width: 84%;
+    text-align: right;
+    padding: 10%;
+}
+#checkout-product2{
+    margin-bottom: 15%;
+}
+/* ------ PRODUCTS   ------ */
+.product{
+    width: 46%;
+    text-align: left;
+    font-size: 0.8rem;
+}
+.product-price{
+    color: chocolate;
+    margin: 0%;
+    position: absolute;
+
+}
+.product-price_discount{
+    text-align: right;
+    width: fit-content;
+    margin-left: 40%;
+    text-decoration: line-through;
+}
+.product-amount{
+    margin-left: 10%;
+}
+/* ---- END PRODUCTS   ---- */
+/* ---- END CHECKOUT  ---- */
+/* ------ SHIPPING  ------ */
+#shipping,
+.product{
+    font-weight: bold;
+}
+#shipping{
+    padding-bottom: 2%;
+}
+.hr{
+    background-color: #BDBDBD;
+    width: 80%;
+    height: 0.5px;
+    margin: 1% auto;
+}
+#shipping-price,
+#shipping-total{
+    position: absolute;
+    left: 70%;
+    transform: translateY(-3rem);
+}
+
+.shipping-txt{
+    margin-left: 10%;
+}
+
+/* ---- END SHIPPING  ---- */
+/* ----  CONTACT  ---- */
+#contact{
+    margin: 0% auto;
+    margin-bottom: 10%;
+}
+#contact p,
+#shipping_address p{
+    color: #4E5150;
+    font-size: 0.8rem;
+    margin: 0%;
+}
+#contact input,
+#shipping_address input{
+    margin-bottom: 5%;
+}
+.input img{
+    position: absolute;
+    width: 5%;
+    left: 5%;
+    margin-top: 0.8%;
+    z-index: 1;
+
+}
+.input input{
+    width: 80%;
+    padding-left: 8%;
+    border-radius: 12px;
+    border-color: #BDBDBD;
+}
+/* ---- END CONTACT  ---- */
+/* ----  SHIPPING ADDRESS  ---- */
+#shipping_address img{
+    backdrop-filter: grayscale(100%);
+}
+#shipping_address-save_info {
+    display: block;
+    position: absolute;
+    margin: 0%;
+
+}
+#shipping_address-msg{
+    padding-left: 8%;
+}
+#shipping_address-continue{
+    margin: 5%;
+    margin-left: 50%;
+    background-color: rgb(255, 160, 91);
+    padding: 5%;
+    border-radius: 20%;
+    color: #ffffff;
+    border-style: none;
+    width: 40%;
+}
+.midcard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+}
+.midcard img{
+    position: relative;
+    width: 10%;
+    transform: translateY(0.3rem);
+}
+.midcard input{
+    padding-left: 15%;
+    transform: translateY(-1rem);
+}
+/* ---- END SHIPPING ADDRESS  ---- */
+footer{
+    margin: 10%;
+    color: #BDBDBD;
+    text-align: center;
+
+}
+
+
+
+
+
