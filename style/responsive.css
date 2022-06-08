@@ -27,15 +27,8 @@
         width: 70%;
         margin: 0% auto;
     }
-    #content{
-        display: flex;
-        flex-wrap: wrap;
-        position: absolute;
-        flex-grow: 0;
-
-    }
     #checkout{
-        position: relative;
+        position: absolute;
         width: 30%;
         left: 55%;
     }
@@ -44,12 +37,18 @@
         left: 10%;
         transform: translateY(18%);
     }
-    .product{
+    #contact{
+        left: 10%;
+        margin: 10% 0%;
         width: 50%;
     }
-    .product,
-    #shipping{
-        font-size: 0.8rem;
+    #contact img,
+    #shipping_address img{
+        width: 2%;
+        left: 15%;
+    }
+    .product{
+        width: 50%;
     }
     .product-name{
         width: 110%;
@@ -61,6 +60,10 @@
     .product-amount{
         margin-left: 6%;
     }
+    .product,
+    #shipping{
+        font-size: 0.8rem;
+    }
     #shipping-price,
     #shipping-total{
         transform: translateY(-2rem);
@@ -69,13 +72,34 @@
         margin-left: 18%;
         margin-bottom: 4%;
     }
-    #contact{
-        margin: 0%;
-    }
     #shipping_address{
-        width: 30%;
+        width: 50%;
+    }
+    #shipping_address .midcard img{
+        /* position: absolute; */
+        width: 12%;
+        left: 3%;
+        margin-bottom: 2%;
     }
     footer{
         margin-top: 15%;
+    }
+}
+@media(min-width: 1024px){
+    #shipping-address img{
+        width: 1.5%;
+    }
+    #contact img{
+        width: 2%;
+        left: 15%;
+        margin: 0%;
+        margin-left: 0.5%;
+    }
+    #shipping_address img{
+        margin: 0%;
+        margin-left: 0.5%;
+    }
+    #shipping_address .midcard img{
+        width: 10%;
     }
 }
